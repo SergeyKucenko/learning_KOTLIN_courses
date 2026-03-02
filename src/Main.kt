@@ -1,9 +1,14 @@
 
 fun main() {
-    val minTemperature: Byte = -128
-    val maxTemperature: Byte = 127
-    println("Температура на планете в диапазоне от " + minTemperature + " до " + maxTemperature + " градусов или чтото около того ")
+//    val userName = readln()
+//    val secretWord = readln()
+//    println("Хорошго дня, " + userName + "!")
+//    println("Хорошго дня, " + secretWord + "!")
 
+
+
+    val mushroomQuantity = 10000000000000
+    println("Примерное количество грибов на планете: " + mushroomQuantity)
 }
 
 
