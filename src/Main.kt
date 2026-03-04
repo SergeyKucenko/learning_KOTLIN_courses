@@ -3,11 +3,13 @@ fun main() {
 
 
 
-    val cargo:Float = 11000.00
+    val cargo:Float = 11000F
 
-    var intemInKilo:Float = cargo / 1000.00 // перевод в kg
+    var toTonns:Float = cargo /1000F
 
-    var survivingCargo:Float = (intemInKilo / 100) *30   // вычисление остаточного груза
+    var lostCargo:Float = (toTonns / 100F) *30F
+
+    var survivingCargo:Float = toTonns-lostCargo  // вычисление остаточного груза
 
     println("Вес уцелевшего груза: " + survivingCargo + " тонн")
 }
