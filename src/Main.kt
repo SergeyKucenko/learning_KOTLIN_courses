@@ -1,14 +1,15 @@
 
 fun main() {
-//    val userName = readln()
-//    val secretWord = readln()
-//    println("Хорошго дня, " + userName + "!")
-//    println("Хорошго дня, " + secretWord + "!")
 
 
 
-    val mushroomQuantity = 10000000000000
-    println("Примерное количество грибов на планете: " + mushroomQuantity)
+    val cargo:Float = 11000.00
+
+    var intemInKilo:Float = cargo / 1000.00 // перевод в kg
+
+    var survivingCargo:Float = (intemInKilo / 100) *30   // вычисление остаточного груза
+
+    println("Вес уцелевшего груза: " + survivingCargo + " тонн")
 }
 
 
