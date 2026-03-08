@@ -1,9 +1,15 @@
 fun main() {
 
-    val productName = readln()
-    val completedProductArea = readln()
+    val egs = "4 яйца"
+    val klukva = "100 грамм клюквы"
+    val muka = "500 грамм муки"
 
-    val result = productName == "Нано-помидор" && completedProductArea == "100 Га"
+    val egsValue = readln()
+    val klukvaValue = readln()
+    val mukaValue = readln()
+
+
+    val result = egsValue == egs && klukva == klukvaValue && muka == mukaValue
 
     println(result)
 
