@@ -1,10 +1,13 @@
 fun main() {
 
-    val jonAge = readln().toInt()
-    val nikAge = readln().toInt()
-    val sum = jonAge*nikAge
+    val seconds = readln().toInt()
+    val hours = seconds / 3600
+    val secondsForMinuts = seconds % 3600
+    val minutes = secondsForMinuts / 60
+    val leftSeconds = secondsForMinuts % 60
 
-    println("Разница в возрасте: $sum лет " )
+
+    println(" $hours часы  : $minutes минуты : $leftSeconds секунды ")
 
 
 
