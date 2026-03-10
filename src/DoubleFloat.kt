@@ -1,23 +1,13 @@
 fun main() {
 
-    var manNomber1 = readln().toDouble()
-    var simvolOperacii = readln()
-    var manNomber2 = readln().toDouble()
+    val data = readln().toDouble()
 
+    val ploschadKruga: Double = 3.14 * (data * data)
 
-    if (simvolOperacii == "+") {
-        val summa = (manNomber1+manNomber2)
-        println("$summa")
-    } else if (simvolOperacii == "-") {
-        val minus = (manNomber1-manNomber2)
-        println("$minus")
-    } else if (simvolOperacii == "/") {
-        val delenie = (manNomber1/manNomber2)
-        println("$delenie")
-    } else if (simvolOperacii == "*") {
-        val umnozhenye = (manNomber1*manNomber2)
-        println("$umnozhenye")
-    }
+    val dlinaOkrugnosti: Double =  2*(3.14*data)
+
+    println("Радиус: $data\nДлина окружности: $dlinaOkrugnosti\nПлощадь круга: $ploschadKruga")
+
 
 
 
