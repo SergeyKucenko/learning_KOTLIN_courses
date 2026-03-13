@@ -1,13 +1,15 @@
 fun main() {
 
-    val firstSaleDay = 1
-    val lastSaleDay = 14
-    val saleDays = firstSaleDay ..< lastSaleDay // создаём диапазон [1, 2, 3, .., 12, 13]
+    val range1 = 10..20 // 10 11 .. 19 20
+    val range2 = 10..20 step 2 // 10 12 .. 18 20
 
-println(saleDays)
+    val range3 = 10 downTo 1 // 10 9 .. 2 1
+    val range4 = 10 downTo 1 step 2 // 10 8 .. 4 2
 
-
-
+println(range1)
+println(range2)
+println(range3)
+println(range4)
 
 
 //________________________________________________________________________________________________
