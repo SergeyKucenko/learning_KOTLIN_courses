@@ -1,15 +1,6 @@
 fun main() {
 
-    val range1 = 10..20 // 10 11 .. 19 20
-    val range2 = 10..20 step 2 // 10 12 .. 18 20
 
-    val range3 = 10 downTo 1 // 10 9 .. 2 1
-    val range4 = 10 downTo 1 step 2 // 10 8 .. 4 2
-
-println(range1)
-println(range2)
-println(range3)
-println(range4)
 
 
 //________________________________________________________________________________________________
