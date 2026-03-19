@@ -5,40 +5,44 @@ fun main() {
 
 
     // ____________________________________
-    val food = readln()
-    val name = readln()
-    val eyes = readln()
-
-
-    when (food) {
-        "Молоко" -> {
-            when (name) {
-                "Ами" -> {
-                    when (eyes) {
-                        "Золотые" -> {
-                            println(
-                                "Ваше любимое блюдо: $food\n" +
-                                        "Как зовут вашу лучшую подругу: $name\n" +
-                                        "Какого цвета у вас глаза: $eyes\n" +
-                                        "Доступ запрещён"
-                            )
-                        }
-                    }
-                }
-            }
-        }
-
-        else -> {
-            println(
-                "Ваше любимое блюдо: $food\n" +
-                        "Как зовут вашу лучшую подругу: $name\n" +
-                        "Какого цвета у вас глаза: $eyes\n" +
-                        "Доступ разрешен"
-            )
-        }
-    }
-
+//    var oceanName = readln()
+//    var pollutionLevel = readln().toDouble()
 //
+//    when (pollutionLevel) {
+//        0.0 -> println("$oceanName в идеальном состоянии")
+//
+//        in 0.0..0.1 -> {
+//            val temp1 = pollutionLevel * 100
+//            println("$oceanName загрязнен на $temp1%")
+//        }
+//        in 0.1..1.0 -> {
+//            val temp2 = pollutionLevel * 100
+//            println("$oceanName загрязнен на $temp2%")
+//        }
+//
+//        in 1.1..2.0 -> {
+//            val temp3 = pollutionLevel * 100
+//            println("$oceanName загрязнен на $temp3%")
+//        }
+//
+//        else -> println("$oceanName загрязнен более чем на 200%")
+//    }
+//
+
+// ____________________________________
+
+//    val planetName = readln()
+//    val windSpeed = readln().toInt()
+//
+//    val message = when {
+//        windSpeed >= 150 -> "Внимание, туристы! Рельеф планеты $planetName может сильно измениться в течение ближайших нескольких часов."
+//        windSpeed in 100..149 -> "Внимание, туристы! Рельеф планеты $planetName может сильно измениться в течение следующих суток."
+//        windSpeed in 50..99 -> "Внимание, туристы! Рельеф планеты $planetName может сильно измениться в течение ближайшей недели."
+//        else -> "Рельеф планеты $planetName в ближайшее время не изменится."
+//    }
+//
+//    println(message)
+
 
 
     // ____________________________________
