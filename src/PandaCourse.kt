@@ -6,23 +6,40 @@ fun main() {
 
 // ____________________________________
 
+    var bookCount = 0
+
+    var bookId = 0
+    do {
+        println("Введите количество книг:")
+
+        bookCount = readln().toInt()
+    } while (bookCount == 0)
+
+    println("Отсканированные книги:")
+
+    for(bookNumber in 1 .. bookCount) {
+        ++bookId
+        val bookName = readln()
+        println("  - $bookName, ID-$bookId")
+        println()
+    }
 
 // _______________________________________
 
-    println("Введите количество плодов для проверки:")
-    val inputData = readln().toInt()
-    println("Статус плодов:")
-
-    for (number in 1..inputData) {
-        val diameter = readln().toInt()
-
-        when (diameter) {
-            in -10000..0 -> println(" - Не соответствует")
-            in 1..30 -> println(" - Соответствует")
-            in 31..10000 -> println(" - Не соответствует")
-        }
-
-    }
+//    println("Введите количество плодов для проверки:")
+//    val inputData = readln().toInt()
+//    println("Статус плодов:")
+//
+//    for (number in 1..inputData) {
+//        val diameter = readln().toInt()
+//
+//        when (diameter) {
+//            in -10000..0 -> println(" - Не соответствует")
+//            in 1..30 -> println(" - Соответствует")
+//            in 31..10000 -> println(" - Не соответствует")
+//        }
+//
+//    }
 
 
 
