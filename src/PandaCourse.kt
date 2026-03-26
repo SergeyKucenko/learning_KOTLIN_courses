@@ -6,28 +6,24 @@ fun main() {
 
 // ____________________________________
 
-    val boardSize = readln().toInt()
+    var number = readln().toInt()
+    var message = readln()
+    var count = 0
 
-    for (row in 1..boardSize) {
 
-        if (row % 2 == 0) {
-            print("■")
-        } else {
-            print("□")
+    if (number == 5){
+        for (radioNomber in 0 until number) {
+            count++
+            println("Приёмник #$count: $message");
         }
-        println()
-
-        // Пишите код здесь
-        for (row in 1..boardSize) {
-            if (row % 2 != 0) {
-                print("□")
-            } else {
-                print("■")
-            }
-
+    } else if (number == 3){
+        for (radioNomber in 0 until number) {
+            count++
+            println("Приёмник #$count: $message");
         }
-
     }
+
+
 
 // ____________________________________
 
