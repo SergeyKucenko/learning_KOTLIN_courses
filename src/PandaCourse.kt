@@ -4,24 +4,57 @@ fun main() {
 //________________________________________________________________________________________________
 //    Цикл For
 
+
+
+
+// ____________________________________
+// ____________________________________
 // ____________________________________
 
-    var number = readln().toInt()
-    var message = readln()
-    var count = 0
 
 
-    if (number == 5){
-        for (radioNomber in 0 until number) {
-            count++
-            println("Приёмник #$count: $message");
-        }
-    } else if (number == 3){
-        for (radioNomber in 0 until number) {
-            count++
-            println("Приёмник #$count: $message");
-        }
-    }
+
+
+
+// ____________________________________
+//    val dishCount = readln().toInt()
+//    var caloriesSum = 0
+//
+//    for(number in 1..dishCount) {
+//        val dishName = readln()
+//        when(dishName) {
+//            "Грибной суп" -> {
+//                caloriesSum +=  50900
+//            }
+//            "Крем-суп из тыквы" -> {
+//                caloriesSum +=  92500
+//            }
+//            "Винегрет" -> {
+//                caloriesSum +=  130100
+//            }
+//        }
+//    }
+//    print("Количество калорий в блюдах: $caloriesSum")
+//
+
+// ____________________________________
+
+//    var number = readln().toInt()
+//    var message = readln()
+//    var count = 0
+//
+//
+//    if (number == 5){
+//        for (radioNomber in 0 until number) {
+//            count++
+//            println("Приёмник #$count: $message");
+//        }
+//    } else if (number == 3){
+//        for (radioNomber in 0 until number) {
+//            count++
+//            println("Приёмник #$count: $message");
+//        }
+//    }
 
 
 
