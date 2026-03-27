@@ -1,7 +1,6 @@
 fun main() {
 
 
-    
 
 
 
@@ -9,7 +8,49 @@ fun main() {
 
 
 
+//_____________________________________________________________________________________________
+//    2.13 Цикл for и свойство size
 
+
+
+
+//_____________________________________________________________________________________________
+
+// 2.12 Циклы Repeat и While
+
+//    val number = readln().toInt()
+//
+//    var sum = 0
+//
+//    var currentNumber = 1
+//
+//
+//    while (currentNumber <= number) {
+//    sum+= currentNumber
+//        currentNumber++
+//    }
+//    println("Сумма чисел от 1 до $number равна $sum")
+
+
+//____________________________________________
+//    val correctNumber = Random.nextInt(100)
+//
+//    var win = false
+//
+//    while(!win){
+//        print("Любое число от 1 до 100?")
+//        val number = readln().toInt()
+//
+//        if (number < correctNumber) {
+//            println("Ваше чиcло меньше")
+//        } else if (number > correctNumber) {
+//            println("Ваше число больше")
+//        } else {
+//            win =true
+//            println("Вы угадали!")
+//        }
+//    }
+//
 
 //_____________________________________________________________________________________________
 
