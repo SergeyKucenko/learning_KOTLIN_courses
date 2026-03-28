@@ -11,6 +11,10 @@ fun main() {
 //_____________________________________________________________________________________________
 //    2.13 Цикл for и свойство size
 
+    val names = listOf<String>("john", "Mike", "Helen", "Alex")
+    print("Enter your Name")
+    val searchName = readln()
+
 
 
 

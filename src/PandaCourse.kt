@@ -16,6 +16,7 @@ fun main() {
 
 
 
+
 // ____________________________________
 //    val dishCount = readln().toInt()
 //    var caloriesSum = 0
