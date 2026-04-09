@@ -5,14 +5,163 @@ fun main() {
 //  10.1 Функции
 
 
-
-
-// ____________________________________
-// ____________________________________
 // ____________________________________
 
 
+
+
+// ____________________________________
 //    Задача
+//    На морских курортах сложнее всего найти время на посещение всех достопримечательностей.
+//    До недавнего времени туристические агентства предлагали маршруты, разработанные специализированной программой, но после недавнего обновления она перестала работать.
+//    Ваша задача: проанализируйте новую версию программы и исправьте ошибки.
+//    Подсказка: добавьте недостающие аргументы для функции.
+
+//    println("Время на маршрут (в минутах):")
+//    val time = readln().toInt()
+//
+//    println("Максимальная стоимость тура (в кредитах):")
+//    val maxCost = readln().toInt()
+//
+//    println("Максимальное количество локаций (в единицах):")
+//    val maxLocationCount = readln().toInt()
+//
+//    val foundRoute = findRoute(time, maxCost, maxLocationCount)
+//
+//    println("Маршрут:")
+//    if (foundRoute.size > 0) {
+//        for (point in foundRoute) {
+//            println(" - $point")
+//        }
+//    } else {
+//        println(" - Не найден")
+//    }
+//
+//}
+//
+//val interestPoints = arrayOf(
+//    arrayOf("Отель", "15 минут", "20 кредитов"),
+//    arrayOf("Пляж", "15 минут", "50 кредитов"),
+//    arrayOf("Водные горки", "15 минут", "30 кредитов"),
+//    arrayOf("Подводная экскурсия", "60 минут", "300 кредитов"),
+//)
+//
+//fun findRoute(maxTime: Int, maxCost: Int, maxLocationCount: Int): Array<String> {
+//    val route = Array(maxLocationCount) { "" }
+//
+//    var currentTime = 0
+//    var currentCost = 0
+//    var currentLocationIndex = 0
+//
+//    for (index in interestPoints.indices) {
+//        val pointName = interestPoints[index][0]
+//        val pointTimeCost = interestPoints[index][1].split(" ")[0].toInt()
+//        val pointMoneyCost = interestPoints[index][2].split(" ")[0].toInt()
+//
+//        if (currentTime + pointTimeCost <= maxTime) {
+//            if (currentCost + pointMoneyCost <= maxCost) {
+//                if (currentLocationIndex < maxLocationCount) {
+//                    route[currentLocationIndex] = pointName
+//
+//                    currentTime += pointTimeCost
+//                    currentCost += pointMoneyCost
+//                    currentLocationIndex++
+//                } else {
+//                    break
+//                }
+//            }
+//        }
+//    }
+//
+//    return route
+
+
+
+// ____________________________________
+//    Задача
+//    С появлением беспилотников V поколения стоимость проезда на скоростном поезде снизилась на 30%,
+//    что привело к регистрации множества новых пользователей в системе онлайн-бронирования билетов.
+//    Ваша задача: проанализируйте программу и разработайте функционал для заказа двух и более билетов.
+
+//    println("Выберите тип билета (1-3):")
+//    val ticketType = readln().toInt()
+//
+//    println("Выберите количество билетов:")
+//    val ticketCount = readln().toInt()
+//
+//
+//    val total = bookTicket(ticketType, ticketCount)
+//
+//}
+//
+//fun bookTicket(ticketType: Int, ticketCount: Int) {
+//    when (ticketType) {
+//        1 -> {
+//            println("Стоимость билетов - ${2000 * ticketCount} кредитов")
+//        }
+//
+//        2 -> {
+//            println("Стоимость билетов - ${1000 * ticketCount} кредитов")
+//        }
+//
+//        3 -> {
+//            println("Стоимость билетов - ${500 * ticketCount} кредитов")
+//        }
+//
+//    }
+
+
+// ____________________________________
+//    Задача
+//    Туристическая экспедиция в наши дни не обходится без галактических карт, астролёта и парочки дроидов.
+//    И как известно, не ломается только тот дроид, которого у вас нет.
+//    Ваша задача: проанализируйте одну из вспомогательных программ дроида и исправьте ошибки.
+
+//    println("Желаете починить робота? (Да/Нет)")
+//    val userAnswer = readln()
+//
+//    if (userAnswer == "Да") {
+//        // пишите код здесь
+//        initRepair()
+//    } else {
+//        println("Вы отказались от ремонта")
+//    }
+//}
+//
+//fun initRepair() {
+//    println("Запущен процесс авторемонта ...")
+//
+//    var cooldown = 5
+//    while (cooldown > 0) {
+//        println("До запуска робота $cooldown")
+//        cooldown--
+//    }
+//
+//    println("Ремонт завершён")
+
+// ____________________________________
+//    println("Ваш идентификатор?")
+//
+//    val userId = readln()
+//    val isValidUserId = checkUserId(userId)
+//    if (isValidUserId) {
+//        println("Доступ разрешён")
+//    } else {
+//        println("Доступ запрещён")
+//    }
+//}
+//
+//    fun checkUserId(userId: String): Boolean {
+//    val whitelistId = arrayOf("TK-01001", "TK-01011")
+//
+//    return userId in whitelistId
+
+//________________________________________________________________________________________________
+
+//    МАССИВЫ [[[[ ]]]]
+
+
+////    Задача
 //    Неко-сан мечтает помочь звёздам, которые устали от папарацци.
 //    Для этого она начала разрабатывать специальную программу, но у неё возникли трудности.
 //    Ваша задача: доработайте программу, которая используется для отображения всех папарацци в регионе в режиме реального времени.
