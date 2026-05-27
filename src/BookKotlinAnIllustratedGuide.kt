@@ -14,7 +14,7 @@ fun main() {
         "Люси", "Буду покупать его снова!", 0
     )
 
-    
+
     val kirtyReviews: Int? = null
 
     fun printReview(review: CoffeeReview) = println("${review.name} поставил(а) ему ${review.stars} stars!")
