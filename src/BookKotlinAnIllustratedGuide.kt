@@ -28,3 +28,15 @@ fun main() {
 }
 
 
+//fun orderCoffee(payment: Payment): Coffee {
+//    return Coffee()
+//}
+//val payment: Payment? = null
+//
+//val coffee = if (payment != null) {
+//    orderCoffee(payment)
+//} else {
+//    orderCoffee(getPaymentFromFriend())
+//}
+
+
