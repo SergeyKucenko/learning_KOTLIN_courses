@@ -25,7 +25,7 @@ fun main() {
     printReview(tobyReview)
     printReview(lucyReview)
 
-//ваолтрыловавыоа
+//ваолтрыловавыоаsgfsdfgfdg
 }
 
 
