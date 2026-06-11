@@ -25,18 +25,22 @@ fun main() {
     printReview(tobyReview)
     printReview(lucyReview)
 
+
 }
 
 
+
+
+enum class PaymentType {
+    CASH, CHECK, CARD;
+}
+
+//class Payment(val type: PaymentType = PaymentType.CASH)
+//
+//
+//
 //fun orderCoffee(payment: Payment): Coffee {
+//    val paymentType = payment.type.name.lowercase()
+//    println("Благодарим, что поддержали нас $paymentType")
 //    return Coffee()
 //}
-//val payment: Payment? = null
-//
-//val coffee = if (payment != null) {
-//    orderCoffee(payment)
-//} else {
-//    orderCoffee(getPaymentFromFriend())
-//}
-
-
