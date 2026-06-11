@@ -31,9 +31,9 @@ fun main() {
 
 
 
-enum class PaymentType {
-    CASH, CHECK, CARD;
-}
+//enum class PaymentType {
+//    CASH, CHECK, CARD;
+//}
 
 //class Payment(val type: PaymentType = PaymentType.CASH)
 //
